@@ -7,8 +7,8 @@ import { HelloComponent } from './hello.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, WelcomeComponent],
-  bootstrap:    [ AppComponent ]
+  imports: [BrowserModule, FormsModule],
+  declarations: [AppComponent, HelloComponent, WelcomeComponent],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
